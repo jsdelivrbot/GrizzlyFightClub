@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ADMIN Grizzly</title>
+    <link rel="stylesheet" href="../Libraries/bootstrap v4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../Libraries/fontawesome-free-5.0.8/web-fonts-with-css/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="../Libraries/Trumbowyg-master/dist/ui/trumbowyg.min.css">
+    <link rel="stylesheet" href="../Libraries/jquery-ui-1.12.1.custom/jquery-ui.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="../Libraries/jQuery 3.3.1/jquery-3.3.1.min.js"></script>
+    <script src="../Libraries/jquery-validate/dist/jquery.validate.min.js"></script>
+    <script src="../Libraries/Trumbowyg-master/dist/trumbowyg.min.js"></script>
+    <script src="../Libraries/bootstrap v4/js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+</head>
+
+<body>
+    <div id="mainSite">
+        <header>
+            <div>
+                <img src="./images/top" alt="glowny obraz" />
+            </div>
+            <menu>
+                <ul>
+                    <li>Aktualności</li>
+                    <li>O klubie</li>
+                    <li>Grafik</li>
+                    <li>Nabory</li>
+                    <li>Gdzie trenujemy?</li>
+                    <li>O nas</li>
+                    <li>Zdjęcia</li>
+                    <li>Kontakt</li>
+                </ul>
+            </menu>
+        </header>
+        <section>
+            <div class="row">
+                <div class="col-sm-8 left-section">
+ <!-- trumbowyg -->
+                    <div class="col-sm-12 trum">
+                        <div id="trumbowyg-demo"></div>
+                        <button id="addPost">Add Post</button>
+                    </div>
+                    <div class="row article">
+                        <div class="col-sm-4 article-img">
+                            <img class="articleImg" src="../images/grizzly.png" alt="content image">
+                        </div>
+                        <div class="col-sm-8" article-text>
+                            <div>
+                                <span>Nowa strona!</span>
+                                <span class="date"></span>
+                            </div>
+                            <span class="articleText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat exercitationem aliquam illo
+                                ipsam quae animi perspiciatis neque perferendis sint nisi, enim autem in, explicabo accusantium.
+                                Non quidem corporis cupiditate nemo!</span>
+                        </div>
+                    </div>
+                    <div class="row article">
+                        <div class="col-sm-4 article-img">
+                            <img class="articleImg" src="../images/grizzly.png" alt="content image">
+                        </div>
+                        <div class="col-sm-8" article-text>
+                            <div>
+                                <span>O czyms</span>
+                                <span class="date"></span>
+                            </div>
+                            <span class="articleText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat exercitationem aliquam illo
+                                ipsam quae animi perspiciatis neque perferendis sint nisi, enim autem in, explicabo accusantium.
+                                Non quidem corporis cupiditate nemo!</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Right sidebar -->
+                <div class="col-sm-4">
+                    <!-- Social -->
+                    <div class="social">
+                        <h5>Media</h5>
+                        <hr class="sidebarLine" width="80%" />
+                        <span>Obserwuj nas w różnych mediach!</span>
+                        <div class="socialLinks">
+                            <a href="#" class="fab fa-facebook"></a>
+                            <a href="#" class="fab fa-instagram fa-inverse"></a>
+                            <a href="#" class="fab fa-twitter"></a>
+                            <a href="#" class="fab fa-youtube"></a>
+                        </div>
+                        <div class="fb-like" data-href="https://www.facebook.com/grizzlyfightclub/" data-layout="button_count" data-action="like"
+                            data-size="small" data-show-faces="true" data-share="true"></div>
+                    </div>
+                    <div class="calendar">
+
+                    </div>
+                    <div class="map">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer id="footer">
+            <div class="row footer1">
+                <div class="col-sm-4 leftFooter">
+                    <h4 class="footer-title">Nawigacja</h4>
+                    <ul>
+                        <li>Aktualności</li>
+                        <hr>
+                        <li>O klubie</li>
+                        <hr>
+                        <li>Grafik</li>
+                        <hr>
+                        <li>Nabory</li>
+                        <hr>
+                        <li>Gdzie trenujemy?</li>
+                        <hr>
+                        <li>O nas</li>
+                        <hr>
+                        <li>Zdjęcia</li>
+                        <hr>
+                        <li>Kontakt</li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 centerFooter">
+                    <img id="bear-image" src="../images/footerfixbrown.jpg" alt="bear" width="40% ">
+                    <div class="social">
+                        <div class="socialLinks">
+                            <h5>Obserwuj nas!!!</h5>
+                            <a href="#" class="fab fa-facebook"></a>
+                            <a href="#" class="fab fa-instagram"></a>
+                            <a href="#" class="fab fa-twitter"></a>
+                            <a href="#" class="fab fa-youtube"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 rightFooter">
+                    <h4 class="footer-title">INFO</h4>
+                    <div>
+                        <span>Telefon</span>
+                        <br>
+                        <span>999-999-999</span>
+                        <br>
+                        <span>999-999-999</span>
+                        <hr>
+                        <span>Email</span>
+                        <br>
+                        <span>mail.gmail.com</span>
+                        <hr>
+                        <a id="login-div" href="#" data-toggle="modal" data-target="#myModal">
+                            <span>
+                                <img class="img-login" src="../images/footerfixbrown.jpg" alt="bearlog">
+                            </span>
+                            <span>Webmaster</span>
+                            <span>
+                                <img class="img-login" src="../images/footerfixbrown.jpg" alt="bearlog">
+                            </span>
+                        </a>
+                        <br>
+                        <span id="masterName">Michal Sadurski</span>
+                        <br>
+                        <span>michalsadurski89@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
