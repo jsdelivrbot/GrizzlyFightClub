@@ -13,7 +13,7 @@ You can support it's ongoing development by being a backer or a sponsor:
 
 <p align="center">
     <a href="https://avot.nl">
-        <img src="https://cdn.rawgit.com/Alex-D/Trumbowyg/develop/sponsors/avot.svg" alt="avot®" width="200px"/>
+        <img src="https://cdn.jsdelivr.net/gh/Alex-D/Trumbowyg@develop/sponsors/avot.svg" alt="avot®" width="200px"/>
     </a>
 </p>
 
